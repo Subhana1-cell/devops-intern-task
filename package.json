@@ -1,0 +1,13 @@
+{
+  "name": "devops-intern-task",
+  "version": "1.0.0",
+  "description": "Minimal web app for DevOps intern screening task.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "lint": "node --check src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}

@@ -1,0 +1,9 @@
+services:
+  devops-app:
+    build: .
+    container_name: devops-intern-task
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
